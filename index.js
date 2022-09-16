@@ -90,6 +90,7 @@ timeout.addEventListener('click',()=>{
 window.setTimeout(()=>{
 cimg.style.display="block";
 },1000)
+cimg.style.display="none";
 window.setTimeout(()=>{
     window.open(urls[i])
     },2000)
